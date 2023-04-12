@@ -138,7 +138,7 @@ suite('Unit Tests', () => {
       });
       test("Highlight translation in I ate yogurt for breakfast.", () => {
         let translator = new Translator();
-        let locale = 'british-to-american';
+        let locale = 'american-to-british';
         let text = 'I ate yogurt for breakfast.';
         let expected = 'I ate yoghurt for breakfast.';
         let expectedTranslation = 'I ate <span class="highlight">yoghurt</span> for breakfast.';
